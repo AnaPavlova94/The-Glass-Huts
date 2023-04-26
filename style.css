@@ -1,0 +1,485 @@
+@import url(./font.css);
+
+
+html,body{
+height: 100%;
+width: 100%;
+margin: 0;
+}
+
+header{
+width: 100%;
+height: 9%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+background-color: #ffff;
+padding-bottom: 10px;
+}
+
+.header__inner{
+width: 95%;
+height: 80%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav{
+width: 35%;
+height: 100%;
+}
+
+.header__menu {
+width: 150%;
+height: 100%;
+display: flex;
+list-style: none;
+justify-content: space-between;
+align-items: center;
+font-size: 18px;
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+}
+
+.language {
+background-image: url(./img/united-kingdom.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+display: block;
+width: 25px;
+height: 20px;
+}
+
+.book__btm {
+position: relative;
+right: 3%;
+width: 13%;
+height: 65%;
+background-color: #5B6460;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Open Sans', sans-serif;
+}
+
+.book__btm > a{
+color: white;
+text-decoration: none;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+width: 5%;
+height: 65%;
+position: relative;
+}
+
+.main {
+width: 100%;
+height: auto;
+}
+.main__intro {
+width: 100%;
+height: 85vh;
+background-image: url(./img/Intro.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.intro__inner {
+background-color: rgb(0, 0, 0, .35);
+width: 100%;
+height: 85vh;
+color: white; 
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+box-sizing: border-box;
+padding: 10em 8em;
+position: relative;
+}
+
+.intro__heading {
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 70px;
+margin: 0;
+}
+
+.intro__paragraph {
+font-family: 'Mulish', sans-serif;
+font-size: 20px;
+text-align: center;
+}
+
+.arrow__placeholder{
+position: absolute;
+top: 85%;
+right: 46.5%;
+width: 6%;
+display: flex;
+justify-content: space-between;
+}
+
+.main__cabins{
+height: 140vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.cabins__upper {
+font-family: 'Open Sans', sans-serif; 
+width: 100%;
+height: 40%;
+display: flex;
+justify-content: flex-end;
+}
+
+.cabins__paragraph {
+width: 60%;
+height: 100%;
+box-sizing: border-box;
+padding: 4em;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.cabins__paragraph > h2 , .main__forest__paragraph > h2 {
+font-size: 40px;
+font-weight: 400;
+width: 80%;
+color: #5B6460
+}
+
+.cabins__paragraph > p , .main__forest__paragraph > p{
+font-size: 30px;
+font-weight: 200;
+color: black
+}
+    
+.cabins__paragraph > a , .main__forest__paragraph > a {
+font-size: 30px;
+font-weight: 600;
+text-decoration: none;
+color: #5B6460;
+}
+
+.cabins__paragraph > a > span , .main__forest__paragraph > a > span {
+content: "";
+display: block;
+background-color: #5B6460;
+width: 16%;
+height: 2px;
+}
+
+.cabins__upper__img {
+width: 50%;
+height: 100%;
+background-image: url(./img/the-bed-features-luxurious-supima-linen-and-woolen-blankets-as-well-as-hand-knit-pillows-from-a-local-artist\ 1.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.cabins__lower{
+width: 95%;
+height: 40%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.cabins__lower > img{
+width: 32%;
+height: 90%;
+}
+
+.main__forest {
+    background-color: #E9ECE0;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+
+}
+
+.main__forest__img {
+    background-image: url(./img/Screen\ Shot\ 2021-02-26\ at\ 16.18\ 1.png);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.forest__img__inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(62, 68, 62,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forest__img__inner > div {
+height: 30%;
+width: 25%;
+background-color: rgb(255, 255, 255, .3);
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+bottom: 3em;
+right: -6em;
+border-radius: 50%;
+}
+
+.forest__img__inner > div > div {
+height: 80%;
+width: 80%;
+background-color: rgb(255, 255, 255, .4);
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+border-radius: 50%;
+}
+
+.forest__img__inner > div > div > div {
+    height: 70%;
+    width: 70%;
+    background-color: rgb(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.main__forest__paragraph {
+width: 60%;
+height: 70%;
+box-sizing: border-box;
+padding: 5em;
+display: flex;
+flex-direction: column;
+justify-content: space-between
+}
+
+.main___facilities {
+    width: 100%;
+    height: 50vh;
+    background-color: #5B6460;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.facilities__icon {
+    width: 60%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.facilities__icon > div {
+width: 20%;
+height: 70%;
+display: flex;
+flex-flow: column;
+align-items: center;
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+}
+
+.main___facilities > h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: white;
+}
+
+.main__about__US {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    position: relative;
+}
+
+.about__us__left {
+    width: 50%;
+    height: 100%;
+   background-image: url(./img/the-cabins-overlook-the-hekla-volcano-one-of-icelands-most-active-volcanoes-it-is-part-of-a-25-mile-long-volcanic-ridge-and-during-the-middle-ages-it-was-referred-to-by-europeans-as-the-gateway-to-hell\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about__us__right {
+    width: 50%;
+    height: 100%;
+   background-image: url(./img/unique-panorama-glass-lodge-iceland8\ 1.png);
+}
+
+.more__about__us {
+    position: absolute;
+    width: 9.3%;
+    height: 30%;
+    background-color: #E9ECE0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: calc(50% - 15%);
+    left: calc(50% - 4.65%);
+}
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #5B6460;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__inner__top {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.footer__inner__top > p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer__inner__top > ul {
+    list-style: none;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__inner__top > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer__inner__centr {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.footer__inner__form {
+    width: 40%;
+    height: 70%;
+}
+
+.footer__inner__form > form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.footer__inner__form > form > input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    box-sizing: border-box;
+}
+
+.footer__inner__form > form > input[type="text"] ::placeholder {
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+.footer__inner__form > form > input[type="button"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+}
+
+.footer__inner__form > p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.footer__list__pay > ul{
+    list-style: none;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list__pay > ul > li {
+    width: 80%;
+    height: 50%;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__inner__botton {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #BABABA;
+}
+
+.footer__inner__botton > p {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
